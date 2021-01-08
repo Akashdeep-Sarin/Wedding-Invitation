@@ -3,7 +3,19 @@
  */
 (function ($) {
     "use strict";
-      $('.sakura-falling').sakura();
+      $('.sakura-falling').sakura('start', {
+        blowAnimations: [
+            'blow-soft-left'
+        ],                   // Horizontal movement animation names
+        className: 'sakura', // Class name to use
+        fallSpeed: 1,        // Factor for petal fall speed
+        maxSize: 14,         // Maximum petal size
+        minSize: 9,          // Minimum petal size
+        newOn: 300,          // Interval after which a new petal is added
+        swayAnimations: [    // Swaying animation names
+            'sway-0'
+        ]
+    });
 })(jQuery);
 
 /**
@@ -26,7 +38,7 @@ $(document).on('click', function(){
 });
 
 // Set the date we're counting down to
-var countDownDate = new Date("Nov 29, 2020 00:00:00").getTime();
+var countDownDate = new Date("Jan 15, 2021 11:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
