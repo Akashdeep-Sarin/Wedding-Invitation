@@ -5,15 +5,15 @@
     "use strict";
       $('.sakura-falling').sakura('start', {
         blowAnimations: [
-            'blow-soft-left'
+            'blow-medium-left', 'blow-medium-right'
         ],                   // Horizontal movement animation names
         className: 'sakura', // Class name to use
-        fallSpeed: 1,        // Factor for petal fall speed
-        maxSize: 14,         // Maximum petal size
-        minSize: 9,          // Minimum petal size
-        newOn: 300,          // Interval after which a new petal is added
+        fallSpeed: 1.25,        // Factor for petal fall speed
+        maxSize: 30,         // Maximum petal size
+        minSize: 14,          // Minimum petal size
+        newOn: 100,          // Interval after which a new petal is added
         swayAnimations: [    // Swaying animation names
-            'sway-0'
+            'sway-4'
         ]
     });
 })(jQuery);
