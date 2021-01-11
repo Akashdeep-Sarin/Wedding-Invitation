@@ -5,15 +5,15 @@
     "use strict";
       $('.sakura-falling').sakura('start', {
         blowAnimations: [
-            'blow-medium-left', 'blow-medium-right'
+            'soft-blow-left', 'blow-medium-left', 'blow-medium-right', 'soft-blow-right'
         ],                   // Horizontal movement animation names
         className: 'sakura', // Class name to use
-        fallSpeed: 1.25,        // Factor for petal fall speed
-        maxSize: 30,         // Maximum petal size
-        minSize: 14,          // Minimum petal size
-        newOn: 100,          // Interval after which a new petal is added
+        fallSpeed: 0.75,        // Factor for petal fall speed
+        maxSize: 24,         // Maximum petal size
+        minSize: 8,          // Minimum petal size
+        newOn: 50,          // Interval after which a new petal is added
         swayAnimations: [    // Swaying animation names
-            'sway-4'
+            'sway-2'
         ]
     });
 })(jQuery);
@@ -34,7 +34,7 @@
  */
 $(document).on('click', function(){
     document.getElementById("my_audio").play();
-    console.log('Shaadi me zaroor aana');
+    // console.log('Shaadi me zaroor aana');
 });
 
 // Set the date we're counting down to
@@ -97,11 +97,11 @@ var styles2 = [
     , 'font-size: 32px'
 ].join(';');
 
-console.log('\n\n%c SAVE THE DATE: 29th Nov, 2020!', styles);
+// console.log('\n\n%c SAVE THE DATE: 29th Nov, 2020!', styles);
 
-console.log('%cYour presence is requested!%c\n\nRegards: Vinit Shahdeo', styles1, styles2);
+// console.log('%cYour presence is requested!%c\n\nRegards: Vinit Shahdeo', styles1, styles2);
 
-console.log(
-    `%cShaadi me zaroor aana!\n\n`,
-    'color: yellow; background:tomato; font-size: 24pt; font-weight: bold',
-)
+// console.log(
+//     `%cShaadi me zaroor aana!\n\n`,
+//     'color: yellow; background:tomato; font-size: 24pt; font-weight: bold',
+// )

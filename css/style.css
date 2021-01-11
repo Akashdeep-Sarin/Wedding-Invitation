@@ -383,8 +383,8 @@ img {
 	font-family: 'Dancing Script', cursive;
 	font-weight: bold;
 	font-style: normal;
-	font-size: 90px;
-	margin: 32px 0;
+	font-size: 60px;
+	margin: 12px 0;
 	color: #674ea7;
 }
 
@@ -392,11 +392,27 @@ img {
 	font-family: 'Dancing Script', cursive;
 	font-weight: bold;
 	font-style: normal;
-	margin: 0;
+	margin: 8px 0px 0px 0px;
 	padding: 0;
 	font-size: 50px;
 	color: #e25c67;
 	line-height: 1;
+}
+
+.title .parents{
+	font-size: 20px;
+	color: #b33a46;
+}
+
+
+.title .nickname {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	font-style: italic;
+	/* text-align: right; */
+	font-size: 40px;
+	margin: 12px 0;
+	color: #674ea7;
 }
 
 .dance-med {
@@ -415,7 +431,7 @@ img {
 	letter-spacing: 5px;
 	font-size: 24px;
 	color: #674ea7;
-	margin-top: 5px;
+	margin: 30px;
 }
 
 .title p {
@@ -423,7 +439,7 @@ img {
 	margin: 30px 0 20px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	font-size: 16px;
+	font-size: 24px;
 }
 
 .wrap {
@@ -468,7 +484,8 @@ body {
 	padding: 20px;
 	background-color: #eee;
 	border-radius: 20px;
-	font-size: 16px;
+	font-size: 24px;
+	font-family: 'Arvo', serif;
 }
 
 .venue {
@@ -479,7 +496,8 @@ body {
 	text-align: center;
 	color: #fff;
 	padding: 8px;
-	margin-right: 8px;
+	margin: 12px;
+	font-size: 18px;
 }
 
 .venue a {
